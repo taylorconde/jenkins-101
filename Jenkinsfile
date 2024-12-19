@@ -23,7 +23,11 @@ pipeline {
                 sh '''
                 cd myapp
                 python3 hello.py
+<<<<<<< HEAD
                 python3 hello.py --name="Taylor"
+=======
+                python3 hello.py --name=Brad
+>>>>>>> parent of ced04a4 (line 26 - name=Taylor)
                 '''
             }
         }
